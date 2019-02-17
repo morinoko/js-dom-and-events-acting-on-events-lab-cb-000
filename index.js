@@ -7,6 +7,6 @@ function preventRefreshOnSubmit(){
 preventRefreshOnSubmit()
 
 function retrieveEmployeeInformation() {
-  const input = $('input[name="name"]');
+  let input = $('input[name="name"]');
   return input = input.value;
 }
