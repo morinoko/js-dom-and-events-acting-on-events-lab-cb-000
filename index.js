@@ -31,3 +31,5 @@ function addNewLiOnClick() {
     input.value = "";
   });
 }
+
+addNewLiOnClick();
