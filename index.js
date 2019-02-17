@@ -8,6 +8,6 @@ preventRefreshOnSubmit()
 
 function retrieveEmployeeInformation() {
   const input = $('input[name="name"]');
-
+  return input;
   
 }
