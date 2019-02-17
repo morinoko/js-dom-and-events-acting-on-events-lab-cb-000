@@ -23,9 +23,8 @@ function addNewElementAsLi() {
 
 function addNewLiOnClick() {
   const input = $('input[name="name"]')[0];
-
-  submit.addEventListener('click', function(e) {
-    addNewElementAsLi();
-    input.value = "";
-  });
+  
+  addNewElementAsLi();
+  
+  input.value = "";
 }
