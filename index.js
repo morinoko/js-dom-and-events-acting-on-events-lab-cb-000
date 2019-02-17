@@ -31,4 +31,4 @@ function addNewLiOnClick() {
 }
 
 const submit = $('input[type="submit"]');
-submit.addEventListener('click', addNewLiOnClick;
+submit.addEventListener('click', addNewLiOnClick);
