@@ -20,3 +20,7 @@ function addNewElementAsLi() {
 
   employeeList.append(li);
 }
+
+function addNewLiOnClick() {
+  
+}
