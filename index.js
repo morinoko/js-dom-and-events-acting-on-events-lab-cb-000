@@ -28,3 +28,10 @@ function addNewLiOnClick() {
   
   input.value = "";
 }
+
+const submit = $('input[type="submit"]');
+submit.addEventListener('click', addNewLiOnClick);
+
+function clearEmployeeListOnLinkClick() {
+  
+}
