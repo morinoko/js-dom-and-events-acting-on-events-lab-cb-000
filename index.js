@@ -5,3 +5,9 @@ function preventRefreshOnSubmit(){
 }
 
 preventRefreshOnSubmit()
+
+function retrieveEmployeeInformation() {
+  const input = $('input[name="name"]');
+
+  
+}
