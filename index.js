@@ -30,6 +30,8 @@ function addNewLiOnClick() {
   });
 }
 
+addNewLiOnClick();
+
 function clearEmployeeListOnLinkClick() {
 
 }
