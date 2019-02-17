@@ -25,7 +25,7 @@ function addNewLiOnClick() {
   const input = $('input[name="name"]')[0];
 
   addNewElementAsLi();
-  
+
   input.value = "";
 }
 
@@ -33,5 +33,5 @@ const submit = $('input[type="submit"]');
 submit.addEventListener('click', addNewLiOnClick);
 
 function clearEmployeeListOnLinkClick() {
-  
+
 }
