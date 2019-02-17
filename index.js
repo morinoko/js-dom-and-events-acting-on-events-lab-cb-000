@@ -29,7 +29,9 @@ function addNewLiOnClick() {
     addNewElementAsLi();
     input.value = "";
   });
-}
+
+
+addNewLiOnClick();
 
 function clearEmployeeListOnLinkClick() {
 
