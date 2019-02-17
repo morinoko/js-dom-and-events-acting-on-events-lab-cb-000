@@ -22,14 +22,13 @@ function addNewElementAsLi() {
 }
 
 function addNewLiOnClick() {
-  const submit = $('input[type="submit"]');
   const input = $('input[name="name"]')[0];
 
   submit.addEventListener('click', function(e) {
     addNewElementAsLi();
-
     input.value = "";
   });
 }
 
-addNewLiOnClick();
+const submit = $('input[type="submit"]');
+submit.addEventListener(addNewLiOnClick());
