@@ -42,3 +42,5 @@ function clearEmployeeListOnLinkClick() {
     employeeNames.remove();
   });
 }
+
+clearEmployeeListOnLinkClick();
