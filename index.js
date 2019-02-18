@@ -31,8 +31,6 @@ function addNewLiOnClick() {
   });
 }
 
-addNewLiOnClick();
-
 function clearEmployeeListOnLinkClick() {
   const employeeList = $('.employee-list');
   const clearButton = $('a');
@@ -42,5 +40,3 @@ function clearEmployeeListOnLinkClick() {
     employeeNames.remove();
   });
 }
-
-clearEmployeeListOnLinkClick();
