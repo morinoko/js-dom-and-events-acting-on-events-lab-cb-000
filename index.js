@@ -22,7 +22,7 @@ function addNewElementAsLi() {
 }
 
 function addNewLiOnClick() {
-  const submit = $('input[type="submit"]')[0];
+  const submit = $('input[type="submit"]');
 
   submit.addEventListener('click', function(e) {
     const input = $('input[name="name"]')[0];
