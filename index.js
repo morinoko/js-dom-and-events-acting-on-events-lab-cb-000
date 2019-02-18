@@ -13,9 +13,10 @@ function retrieveEmployeeInformation() {
 }
 
 function addNewElementAsLi() {
-  const employeeList = $('.employee-list');
+  const employeeList = document.querySelector('.employee-list');
   const employeeName = retrieveEmployeeInformation();
 
+  
   const li = document.createElement('li');
   li.innerHTML = employeeName;
 
