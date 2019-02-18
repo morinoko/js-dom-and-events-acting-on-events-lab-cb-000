@@ -35,7 +35,7 @@ function clearEmployeeListOnLinkClick() {
   const clearButton = document.querySelector('a');
 
   clearButton.addEventListener('click', function(e) {
-    const employeeList = $('.employee-list');
-    employeeNames.innerHTML = '';
+    let employeeList = $('.employee-list');
+    employeeList.innerHTML = '';
   });
 }
