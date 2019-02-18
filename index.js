@@ -34,7 +34,11 @@ function addNewLiOnClick() {
 addNewLiOnClick();
 
 function clearEmployeeListOnLinkClick() {
-  const employeeNames = $('.employee-list').children();
+  const employeeList = $('.employee-list');
+  const clearButton = $('a');
 
-  employeeNames.remove();
+  clearButton.addEventListener('click', function(e) {
+    const employeeNames = employeeList.children();
+    employeeNames.remove();
+  });
 }
