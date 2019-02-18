@@ -34,5 +34,7 @@ function addNewLiOnClick() {
 addNewLiOnClick();
 
 function clearEmployeeListOnLinkClick() {
+  const employeeNames = $('.employee-list').children();
 
+  employeeNames.remove();
 }
