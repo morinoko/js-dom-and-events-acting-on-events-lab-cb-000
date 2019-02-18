@@ -6,8 +6,9 @@ function preventRefreshOnSubmit(){
 
 preventRefreshOnSubmit();
 
+let input = $('input[name="name"]');
+
 function retrieveEmployeeInformation() {
-  const input = $('input[name="name"]')[0];
   return input.value;
 }
 
@@ -25,7 +26,6 @@ function addNewLiOnClick() {
   const submit = $('input[type="submit"]');
 
   submit.addEventListener('click', function(e) {
-    const input = $('input[name="name"]')[0];
     addNewElementAsLi();
     input.value = "";
   });
